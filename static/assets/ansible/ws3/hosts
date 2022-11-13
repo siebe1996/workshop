@@ -1,0 +1,26 @@
+--- 
+  all:
+    hosts:
+    children:
+      web:
+        hosts:
+          node1:
+            ansible_host: <X.X.X.X>
+          node2:
+            ansible_host: <Y.Y.Y.Y>
+          node3:
+            ansible_host: <Z.Z.Z.Z>
+        vars:
+          ansible_user: ubuntu
+          ansible_password: PASSWORD
+          ansible_connection: ssh
+      control:
+        hosts:
+          ansible-1:
+            ansible_host: <A.A.A.A>
+        vars:
+          ansible_user: student
+          ansible_password: PASSWORD
+          ansible_connection: local
+    vars:
+      ansible_port: 22

@@ -1,0 +1,18 @@
+---
+- name: Apache server installed
+  hosts: web
+  become: yes
+  tasks:
+  - name: latest Apache version installed
+    apt:
+      name: apache2
+      state: latest
+  - name: Apache enable and running
+    service:
+      name: apache2
+      enabled: true
+      state: started
+  - name: copy html file
+    copy:
+      src: web.html
+      dest: /var/www/html/index.html

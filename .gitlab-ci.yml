@@ -1,0 +1,42 @@
+image: node:16.10-alpine3.13
+
+stages:
+  - test
+  - staging
+  - deploy
+
+test_push:
+  stage: test
+  script:
+  - yarn install
+  - yarn build
+  except:
+    - main
+    - development
+
+staging_dev:
+  stage: staging
+  script:
+  - yarn add netlify-cli
+  - yarn install
+  - yarn build
+  - yarn netlify deploy --dir=build --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod --message $CI_COMMIT_MESSAGE
+  environment:
+    name: staging
+    url: https://gitworkshop-dev.netlify.app
+  only:
+    - development
+
+
+
+pages:
+  stage: deploy
+  script:
+  - yarn install
+  - yarn build
+  - mv ./build ./public
+  artifacts:
+    paths:
+    - public
+  only:
+    - main
