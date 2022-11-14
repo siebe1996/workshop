@@ -2,7 +2,7 @@
 
 Oefenen met het maken van pull requests doen we met de broncode van deze eigenste opgave.
 
-* Maak een fork van de repository waarin deze opgave geschreven werd. (te vinden op: https://gitlab.com/ikdoeict/docenten/2122_infrastructure_as_code/labs/labs) 
+* Maak een fork van de repository waarin deze opgave geschreven werd. (te vinden op: https://gitlab.com/ikdoeict/public/workshop/git/workshop) 
 * Doe een zinvolle wijziging en stel deze voor als pull request.
 
 Geen inspiratie voor een zinvolle wijziging?

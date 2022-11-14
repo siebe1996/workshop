@@ -1,6 +1,6 @@
 # Oefening
 
-## Opdracht 1: lokale repo koppelen aan een nieuwe remote
+## Opdracht 1: lokale repo koppelen aan een nieuwe remote 👈
 
 * Maak lokaal op je pc een map *lab-GIT* aan.
 * Maak in die map een repository met `git init`
@@ -20,7 +20,7 @@ Vaak wordt de naam 'origin' gebruikt om de remote aan te duiden. Dat is helemaal
 
 Als dat gelukt is, zou je op Gitlab ook het index.html bestand moeten zien staan in je repository.
 
-## Opdracht 2: Maak een kloon van een repository
+## Opdracht 2: Maak een kloon van een repository 👈
 
 * Ga op zoek naar de originele repository voor de Arduino IDE. Je vindt die op GitHub.
 * Ga op zoek naar de url van de repository. Daarbij heb je keuze uit de git:// versie en de https:// versie. Afhankelijk van de tools waarmee je werkt (of je firewall settings) kan je de meest optimale versie kiezen. Bij gebruik in de terminal is de git:// een stuk optimaler, daarbij wordt een ssh tunnel opgezet.

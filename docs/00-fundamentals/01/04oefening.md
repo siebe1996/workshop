@@ -8,14 +8,14 @@ Om alles wat gezien werd in dit onderdeel in de vingers te krijgen, doorloop je 
 
 `git diff`: hiermee bekijk je het verschil tussen twee versies van een bestand
 
-## Initialisatie
+## Initialisatie 👈
 
 * Open je Git bash terminal (Windows) of je favoriete shell (Linux)
 * Indien het nog niet gebeurd is (controleer met `git config --list`), stel dan je user.name en user.email in met het `git config` commando.
 * Maak een directory *basic-git* aan, ga in die map en voer `git init` uit om een repository aan te maken.
 * Met het commando `git status` kan je zien wat de huidige status is van je repository. In deze fase zal dat uiteraard nog niet veel opleveren...
 
-## Staging & committing
+## Staging & committing 👈
 
 * Maak in dit project een bestand jokes.adoc aan met volgende inhoud:
 ```markdown
@@ -58,7 +58,7 @@ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(ye
 Daarmee maak je een nieuw commando `git lg` aan dat zorgt voor een (subjectief uiteraard 🙂) mooiere output...
 :::
 
-## Aanpassingen maken & doorvoeren
+## Aanpassingen maken & doorvoeren 👈
 
 * Voeg nog een tweede mop toe aan het bestandje jokes.adoc:
 

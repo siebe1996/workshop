@@ -19,7 +19,7 @@ Bouw op de sandbox https://git-school.github.io/visualizing-git/ volgende setup 
 
 Als alles goed liep, zou je bovenstaand schema moeten zien als resultaat.
 
-## Gitlab
+## Gitlab 👈
 
 Maak een nieuwe repo lab-branching aan in Gitlab.
 
@@ -37,7 +37,7 @@ Een vraagje tussendoor: is er intussen al iets gewijzigd aan je repo in Gitlab? 
 
 Voer uiteraard ook deze laatste stap uit.
 
-## Branching en fast-forward merging
+## Branching en fast-forward merging 👈
 
 * Ga in de git bash terug naar de map die we in een eerdere oefening maakten.
 * Maak een nieuwe branch "joke3" aan met het `git branch` commando.
@@ -59,7 +59,7 @@ Voer uiteraard ook deze laatste stap uit.
 * Als de merge een succes is, kan je de feature branch verwijderen met `git branch -d joke3`
 * Met `git branch` kan je vaststellen dat de joke3 branch effectief ook weg is.
 
-## Omgaan met merge conflicts
+## Omgaan met merge conflicts 👈
 
 * Maak een nieuwe branch 'fixjoke' aan.
 * Pas daar de tweede mop aan in het bestand joke.adoc: verander het jaartal naar 2005 (het jaar dat Git ontworpen werd)

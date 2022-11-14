@@ -4,12 +4,12 @@ title: Installatie van GIT
 sidebar_position: 2
 ---
 
-Installatie
-======================================
+# Installatie
+
 
 Iedere ontwikkelaar die gebruik wil maken van GIT zal allereerst de installatie daarvan moeten doen op z'n eigen machine.
 
-## Download en installeer Git
+## Download en installeer Git 👈
 
 Op https://git-scm.com vind je de laatste nieuwe versie van GIT. De installer voor Windows wordt gebundeld met enkele basic tools (zoals de GIT Bash) die ook later nog van pas zullen komen.
 
@@ -29,7 +29,7 @@ Lees ook de volgende keuzeschermen goed door, maar behoud overal de standaardcon
 
 Werk je met een ander besturingssysteem, dan vind je op git-scm.com ook een beknopte handleiding voor de installatie.
 
-## Configureer GIT
+## Configureer GIT 
 
 Er is bijna geen configuratie noodzakelijk om van start te gaan met GIT. Het enige wat je zeker moet doen is GIT vertellen wie je bent door het emailadres op te geven. 
 We doen dit in het voorbeeld globaal op je computer, maar je dat kan ook fijnmaziger als je bijvoorbeeld voor verschillende opdrachtgevers werkt..
@@ -45,7 +45,7 @@ git config --global user.email "your_email@example.com"
 historisch gezien zijn verschillende besturingssystemen wat uit elkaar gegroeid als het gaat over het starten van een nieuwe lijn in een document. Met de standaardinstallatie in Windows zal GIT zal achter de schermen ervoor zorgen dat het karakter voor een nieuwe lijn op Windows vertaalt wordt naar een Unix/Mac variant daarvan. Dit wordt geconfigureerd met `git config --global core.autocrlf true`, maar zou moeten goed ingesteld staan als je de installer volgde met de default settings.
 :::
 
-## Maak credentials aan
+## Maak credentials aan 
 
 Hoewel je repositories kan klonen (=kopiëren) over https, raden we je aan om **waar mogelijk steeds SSH te gebruiken** als transportmechanisme. Eén van de redenen is dat we dan kunnen gebruik maken van een assymetrisch key-pair voor extra veiligheid. 
 
@@ -92,7 +92,7 @@ Je mag bovenstaande bestanden uiteraard hernoemen als je dat duidelijker vindt.
 
 </p>
 
-## Toevoegen van je public key op Gitlab.
+## Toevoegen van je public key op Gitlab. 
 
 In je Gitlab-profiel kan je je public (!) key(s) uploaden. Gitlab kan je op basis daarvan authenticeren.
 
