@@ -2,13 +2,10 @@
 
 ## Fork de publieke moviedb
 
-
-
 Eén van jullie beide maakt een fork van de repository. 
 
-Let daarbij goed op waar je de repository plaatst: doe dat onder de ikdoeict namespace, zodat je kan profiteren van de gold-licentie die daar aan vast hangt.
+Let daarbij goed op waar je de repository plaatst: doe dat onder de ikdoeict namespace (gitlab.com/ikdoeict/), zodat je kan profiteren van de gold-licentie die daar aan vast hangt.
 
-// todo: check als studenten rechten genoeg hebben om te delen met elkaar.
 
 ## Clone de fork
 
