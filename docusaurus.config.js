@@ -9,7 +9,7 @@ const config = {
   plugins: [
     require.resolve('@cmfcmf/docusaurus-search-local')
   ],
-  title: 'Infrastructure as code',
+  title: 'Workshop GIT',
   tagline: 'labs & notes',
   url: 'https://gitworkshop.ikdoeict.be',
   baseUrl: '/',
