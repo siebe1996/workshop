@@ -1,0 +1,12 @@
+---
+id: video
+title: Inleiding
+sidebar_position: 0
+---
+
+<p align="center">
+<iframe width="960" height="540" src="https://www.youtube.com/embed/bqVkfwn5Vnk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ali></iframe>
+</p>
+
+
+bron: https://youtu.be/bqVkfwn5Vnk
