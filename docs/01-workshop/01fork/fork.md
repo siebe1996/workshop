@@ -12,6 +12,10 @@ De originele ontwikkelaars die aan de 'originele' repo werkten, zullen geen rech
 
 Het is dus een volledige kopie van de volledige repository.
 
+<p align="center">
+    <img src="/img/git/git_clone_vs_fork.png" alt="drawing" width="600"/>
+</p>
+
 ## Kiezen tussen forken en klonen
 
 Binnen open source projecten is het heel erg gewoon om een fork te maken om aanpassingen te maken: je hebt immers maar heel zelden rechten op de 'originele' repository om daar rechtstreeks wijzigingen in te maken. 
