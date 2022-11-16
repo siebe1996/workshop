@@ -1,6 +1,6 @@
 ---
 id: video
-title: InleidingY
+title: Inleiding
 sidebar_position: 1
 ---
 
