@@ -23,7 +23,7 @@ git add . <2>
 
 Door bestanden op te nemen met  `git add` voeg je ze toe aan de staging area. Op dat moment zijn deze bestanden nog geen deel van je repository.
 
-Toevoegen aan een repository doen we met een 'commit'. Daarmee worden bestanden écht toegevoeggd aan je (lokale) repository.
+Toevoegen aan een repository doen we met een 'commit'. Daarmee worden bestanden écht toegevoegd aan je (lokale) repository.
 
 ```bash
 git commit -m "commit message"
