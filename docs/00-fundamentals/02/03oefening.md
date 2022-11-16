@@ -5,9 +5,12 @@
 ## Opdracht 1: Maak een kloon van een repository 👈
 
 * Ga op zoek naar de originele repository voor de Arduino IDE. Je vindt die op GitHub.
-* Ga op zoek naar de url van de repository. Daarbij heb je keuze uit de git:// versie en de https:// versie. Afhankelijk van de tools waarmee je werkt (of je firewall settings) kan je de meest optimale versie kiezen. Bij gebruik in de terminal is de git:// een stuk optimaler, daarbij wordt een ssh tunnel opgezet.
+* Ga op zoek naar de url van de repository. Daarbij heb je keuze uit de git:// versie en de https:// versie. Afhankelijk van de tools waarmee je werkt (of je firewall settings) kan je de meest optimale versie kiezen. Heb je nog geen public key aan github toegevoegd, dan is https vermoedelijk de makkelijkste optie.
+Bij gebruik in de terminal is de git:// een stuk optimaler, daarbij wordt een ssh tunnel opgezet.
 Daarvoor worden de keys gebruikt die je eerder aanmaakte bij de installatie.
-* Kloon de repository naar je computer.
+* Kloon de repository naar je computer. 
+
+
 
 ```bash
 git clone git://....
@@ -21,21 +24,10 @@ git clone https://....
 
 * Wat is de bestandsgrootte van alle bestanden met uitzondering van de .git folder?
 
-```
-// antwoord
-```
-
 * Wat is de totale grootte van de .git folder?
-
-```
-// antwoord
-```
 
 * Hoe verklaar je dit?
 
-```
-// antwoord
-```
 
 :::tip 
 Als je een repository wil klonen met een grote geschiedenis, maar die geschiedenis boeit je eigenlijk niet, dan kan je opteren voor een `shallow clone`. Je vindt online terug hoe je dat kan gebruiken..
