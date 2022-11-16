@@ -28,7 +28,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://gitlab.com/ikdoeict/************/labs/-/edit/main/',
+          editUrl: 'https://gitlab.com/ikdoeict/public/workshop/git/workshop',
         },
         
         theme: {
@@ -52,7 +52,7 @@ const config = {
       
          
           {
-            href: 'https://gitlab.com/ikdoeict/public/workshops/git',
+            href: 'https://gitlab.com/ikdoeict/public/workshop/git',
             label: 'GitLab',
             position: 'right',
           },
