@@ -53,6 +53,18 @@ Analyseer de output van `git log`.
 Deze werkwijze komt iets minder voor, en er zijn enkele mogelijke problemen die misschien wat overweldigend kunnen zijn. 
 Zo moet de naam van je branch overeen komen met die op de remote, en dat is tegenwoordig soms lastig omdat de default wisselt tussen 'main' en 'default'.
 
+Staat je branchnaam lokaal nog op (het verouderde) 'master' (controleer met `git config --list`), dan pas je dat beter aan met 
+
+```
+git config --global init.defaultBranch main
+```
+
+Ben je te laat om dat te detecteren, en noemt je branch reeds master, dan kan je hem hernoemen met
+
+```
+git branch -m main
+```
+
 :::
 
 * Maak lokaal op je pc een map *lab-GIT* aan.
