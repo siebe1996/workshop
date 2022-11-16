@@ -16,14 +16,23 @@ Op https://git-scm.com vind je de laatste nieuwe versie van GIT. De installer vo
 De default instellingen van de Windows installer zijn prima bruikbaar, al kan je overwegen om bijvoorbeeld de standaardeditor aan te passen naar je favoriete editor of notepad. Default wordt VI gebruikt, een krachtige, maar complexe editor die je misschien afschrikt.
 
 Een andere keuze die je (enkel op Windows) moet maken is hoe je de Git-tools wil integreren in je besturingssysteem. Volg ook daar de aanbevolen keuze:
-
-<p align="center">
+<p align="center" width="900">
 
 ![](/img/git/gitinstallerpath.png)
 
 </p>
 
 Daarmee kan het Git-commando ook in je Powershell of command prompt gebruiken. 
+
+Je krijgt ook de vraag om een naam voor een default branch te kiezen. Kies daar om 'main' te gebruiken, in plaats van het gedateerde 'master'
+
+<p align="center" width="900">
+
+![](/img/git/git-install-default-branch.png)
+
+</p>
+
+
 
 Lees ook de volgende keuzeschermen goed door, maar behoud overal de standaardconfiguratie die voorgesteld wordt.
 
