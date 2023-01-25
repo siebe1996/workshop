@@ -10,12 +10,12 @@ Bouw op de sandbox https://git-school.github.io/visualizing-git/ volgende setup 
 
 ![merge](/img/git/branchmerge.png)
 
-* doe een eerste commit (first commit) op de master branch
-* doe een tweede commit (feat1) op de master branch
+* doe een eerste commit (first commit) op de main branch
+* doe een tweede commit (feat1) op de main branch
 * maak een nieuwe branch test, bedoeld om een experimentele feature te bouwen
 * checkout de nieuwe test-branch, en doe er twee commits in
-* ga terug naar de master branch
-* merge de test branch met de master branch. (vanop de master branch voer je het commando `git merge test` uit) Verdere details over hoe zo'n merge (=samenvoegen) werkt zien we in een volgende pagina.
+* ga terug naar de main branch
+* merge de test branch met de main branch. (vanop de master branch voer je het commando `git merge test` uit) Verdere details over hoe zo'n merge (=samenvoegen) werkt zien we in een volgende pagina.
 
 Als alles goed liep, zou je bovenstaand schema moeten zien als resultaat.
 
@@ -54,7 +54,7 @@ Voer uiteraard ook deze laatste stap uit.
 
 * Stage en commit deze wijziging in de huidige actieve branch
 * Ga met `git log` kijken naar de commit history
-* Ga terug naar de master branch
+* Ga terug naar de main branch
 * Merge de wijzigingen die we maakten in de feature branch met `git merge joke3`
 * Als de merge een succes is, kan je de feature branch verwijderen met `git branch -d joke3`
 * Met `git branch` kan je vaststellen dat de joke3 branch effectief ook weg is.
@@ -66,7 +66,7 @@ Voer uiteraard ook deze laatste stap uit.
 * Stage en commit deze wijziging (net zoals je eerder al deed met de joke3 branch)
 * Ga naar je master branch en pas daar het jaartal aan naar 2007.
 * Ook hier stage en commit je deze wijziging
-* Voer vanuit de master branch een merge uit: `git merge fixjoke`
+* Voer vanuit de main branch een merge uit: `git merge fixjoke`
 
 Het resultaat is uiteraard dat er een merge conflict is. Git kan niet weten als de wijziging van het jaartal moet resulteren in 2005 of 2007.
 
